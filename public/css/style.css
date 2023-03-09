@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Amiri&family=PT+Sans:wght@400;700&display=swap");
+
+body {
+    font-family: "PT Sans", sans-serif;
+    background-color: whitesmoke;
+}
+
+#read-content .body-content {
+    font-family: "Amiri", serif;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.body-title {
+    font-size: 1.3em;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Navbar Section */
+.navbar {
+    padding: 0 0;
+}
+
+.navbar .container-fluid {
+    padding: 0 15%;
+}
+
+.nav-item {
+    padding: 0 5px;
+}
+
+.dropdown-menu {
+    background-color: #003638;
+
+    border: none;
+}
+
+.dropdown-item {
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Heading-Section */
+#heading-section {
+    padding: 5% 0;
+    background: rgba(0, 0, 0, 0.7) url(../assets/img/bg-img.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 78vh;
+}
+.head-kiri a {
+    width: 125px;
+    height: 125px;
+}
+.head-kiri a img {
+    width: 5.5em;
+    object-fit: cover;
+}
+/* Akhir Heading-Section */
+
+/* Main-Section */
+#main-section .container-fluid {
+    padding: 0 15% 7%;
+}
+
+/* Bagian Kiri */
+/* Highlight Terkini */
+.carousel-inner .carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Owl Carousel */
+.owl-carousel .card .card-img-top {
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.owl-prev {
+    left: 10px;
+}
+.owl-next {
+    right: 10px;
+}
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 40px;
+}
+
+.owl-prev span,
+.owl-next span {
+    font-size: 50px;
+    color: black;
+}
+/* Akhir Owl Carousel */
+/* Akhir Bagian Kiri */
+
+/* Bagian Kanan */
+
+/* Akhir Bagian Kanan */
+
+/* Card */
+
+/* Footer-Section */
+footer {
+    color: gainsboro;
+}
+
+.footer-info .container-fluid {
+    padding: 7% 15% 0;
+}
+footer a {
+    text-decoration: none;
+    color: gainsboro;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Social Sharer */
+.social-sharer a {
+    background-color: #003638;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.social-sharer a:hover {
+    color: #f7f7f7;
+}
+
+.social-sharer a.s-facebook:hover {
+    background-color: #4267b2;
+}
+.social-sharer a.s-twitter:hover {
+    background-color: #1da1f2;
+}
+.social-sharer a.s-whatsapp:hover {
+    background-color: #47c655;
+}
+.social-sharer a.s-linkin:hover {
+    background-color: #1980be;
+}
+
+/* Social Icon Footer */
+.social-icons a {
+    /* background-color: #eceeef; */
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+}
+
+.social-icons a.facebook:hover {
+    background-color: #4267b2;
+}
+.social-icons a.twitter:hover {
+    background-color: #1da1f2;
+}
+.social-icons a.youtube:hover {
+    background-color: #ff0000;
+}
+.social-icons a.instagram:hover {
+    background-color: #833ab4;
+}
+
+@media (min-width: 200px) {
+    .subtatausaha {
+        display: none;
+    }
+    .submenu {
+        display: block;
+    }
+    .navbar-brand img {
+        width: 10em;
+    }
+    .navbar-toggler {
+        font-size: 0.6rem;
+    }
+    .head-kiri .row {
+        margin: 45px 30px 0;
+    }
+    .head-kiri a {
+        width: 75px;
+        height: 75px;
+    }
+    .head-kiri a img {
+        width: 2.3em;
+        object-fit: cover;
+    }
+    .head-kiri a h6 {
+        font-size: 0.71em;
+    }
+    #header-slide .carousel-inner .carousel-item img {
+        height: auto;
+        object-fit: contain;
+    }
+
+    #highlight-berita .carousel-inner .carousel-item img {
+        height: 300px;
+        object-fit: contain;
+    }
+
+    #waktu-sholat {
+        margin-top: 20px;
+    }
+    #waktu-sholat table {
+        font-size: 12px;
+    }
+    .social-sharer a {
+        font-size: 12px;
+        top: auto;
+        text-align: center;
+        width: 25px;
+        height: 25px;
+    }
+
+    #terpopuler img {
+        object-fit: contain;
+        height: 230px;
+    }
+    .head-kanan h5 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media (min-width: 768px) {
+    .subtatausaha {
+        display: block;
+    }
+    .dropdown-menu > li:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+    .navbar-brand img {
+        width: 14em;
+    }
+    .head-kiri .row {
+        margin: 45px 30px 0;
+    }
+    .head-kiri a {
+        width: 125px;
+        height: 125px;
+    }
+    .head-kiri a img {
+        width: 5.5em;
+        object-fit: cover;
+    }
+    .head-kiri a h6 {
+        font-size: 1em;
+    }
+    .carousel-inner .carousel-item img {
+        height: auto;
+        object-fit: cover;
+    }
+    #highlight-berita .carousel-inner .carousel-item img {
+        height: 400px;
+        object-fit: contain;
+    }
+    #waktu-sholat {
+        margin-top: 20px;
+    }
+    #waktu-sholat table {
+        font-size: 12px;
+    }
+    .social-sharer a {
+        font-size: 16px;
+        text-align: center;
+        width: 44px;
+        height: 44px;
+    }
+    #terpopuler img {
+        object-fit: cover;
+        height: 150px;
+    }
+    .head-kanan h5 {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (min-width: 992px) {
+    .dropdown-menu li {
+        position: relative;
+    }
+    .nav-item .submenu {
+        display: none;
+        position: absolute;
+        left: 100%;
+        top: -7px;
+    }
+    .nav-item .submenu-left {
+        right: 100%;
+        left: auto;
+    }
+    .dropdown-menu > li:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .dropdown-menu > li:hover > .submenu {
+        display: block;
+    }
+    .navbar-brand img {
+        width: 15em;
+    }
+    .head-kiri .row {
+        margin: 0;
+    }
+    .head-kiri a {
+        width: 125px;
+        height: 125px;
+    }
+    .head-kiri a img {
+        width: 5.5em;
+        object-fit: cover;
+    }
+    .head-kiri a h6 {
+        font-size: 1em;
+    }
+    .carousel-inner .carousel-item img {
+        height: auto;
+        object-fit: cover;
+    }
+
+    #highlight-berita .carousel-inner .carousel-item img {
+        height: 500px;
+        object-fit: contain;
+    }
+
+    #waktu-sholat {
+        margin-top: 0;
+    }
+    #waktu-sholat table {
+        font-size: 16px;
+    }
+    #terpopuler img {
+        height: 100px;
+    }
+}
